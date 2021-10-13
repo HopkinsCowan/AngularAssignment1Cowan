@@ -1,0 +1,14 @@
+
+  <p class="title is-4">ANGULAR CALCULATOR</p>
+  <label>First Number:</label><br><br>
+  <input type="text" id="fnum" name="fnum" #first><br><br>
+  
+
+  <label>Second Number:</label><br><br>
+  <input type="text" id="snum" name="snum"  #second><br><br>
+
+  <button (click) ="add(first.value, second.value)" id ="add" class = "btn btn-primary"> + </button>
+  <button (click) ="sub(first.value, second.value)" id ="sub" class = "btn btn-primary"> - </button>
+  <button (click) ="mul(first.value, second.value)" id ="mul" class = "btn btn-primary"> * </button>
+  <button (click) ="div(first.value, second.value)" id ="div" class = "btn btn-primary"> / </button>
+  
